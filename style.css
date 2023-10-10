@@ -1,0 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/druk-wide-bold');
+@import url('https://db.onlinewebfonts.com/c/040a78b437acd0433612f92e61d04a1b?family=Gilroy-Medium');
+@import url('https://db.onlinewebfonts.com/c/1064f0ad1cb65fdab43bb592ddd8aa91?family=Gilroy-Bold');
+
+.body {
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-secondary-bg-color)
+}
+*{padding: 0; margin: 0;}
+.conteiner {
+    width: 512px;
+    height: 450px;
+    border: 1;
+    border-radius: 40px;
+    user-select: none;
+    background: var(--tg-theme-bg_color);
+    flex-basis: 110px;
+    justify-content: flex-start;
+    margin: 10px;
+
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1066px;
+  border: 0px;
+}
+
+.sale {
+   background: var(--tg-theme-button-color);
+   color: var(--tg-theme-button-text-color)
+   width: 492px;
+   height: 50px;
+   font-size: 20px;
+   border-radius: 40px;
+   border: 0px;
+}
